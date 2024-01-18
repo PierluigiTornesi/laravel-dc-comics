@@ -1,0 +1,51 @@
+.social{
+    height: 100px;
+    background-color: #303030;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+        .sign{
+            margin-top: 1.5rem;
+                button{
+                    border: 2px solid #0282f9;
+                    padding: 1rem;
+                    background-color: #303030;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+                }
+        }
+
+        .socialLink{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 1.5rem;
+
+            h3{
+                color: #0282f9;
+                margin-right: 1rem
+            }
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                list-style: none;
+                gap: 1rem;
+
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
