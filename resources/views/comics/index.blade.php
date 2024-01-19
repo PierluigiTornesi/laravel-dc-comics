@@ -1,4 +1,4 @@
-@extends('layouts.app');
+@extends('layouts.app')
 
 @section('content')
     <div class="container">
@@ -8,6 +8,7 @@
             <a class="btn btn-primary" href="{{ route('comics.create')}}">New Comic Book</a>
         </div>
 
+        {{-- message to warn that the comic has been deleted --}}
         @if (Session::has('message'))
             <div class="alert alert-success">
                 {{ Session::get('message') }}
